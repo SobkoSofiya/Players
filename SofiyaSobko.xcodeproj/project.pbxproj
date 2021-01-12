@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		C32FA13B25AD87CD007560CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32FA13A25AD87CD007560CE /* Assets.xcassets */; };
 		C32FA13E25AD87CD007560CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32FA13D25AD87CD007560CE /* Preview Assets.xcassets */; };
 		C32FA14125AD87CD007560CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32FA13F25AD87CD007560CE /* LaunchScreen.storyboard */; };
+		C32FA14B25AD881D007560CE /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C32FA14A25AD881D007560CE /* SwiftyJSON */; };
+		C32FA14F25AD8A30007560CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C32FA14E25AD8A30007560CE /* Alamofire */; };
+		C32FA15225AD90B2007560CE /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32FA15125AD90B2007560CE /* PlayersViewModel.swift */; };
+		C32FA15525AD90F2007560CE /* texgyreadventor-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C32FA15425AD90F2007560CE /* texgyreadventor-regular.otf */; };
+		C32FA15925AD9239007560CE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32FA15825AD9239007560CE /* SignInView.swift */; };
+		C32FA17D25AD98E6007560CE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32FA17C25AD98E6007560CE /* MainViewModel.swift */; };
+		C32FA18025AD9E2B007560CE /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32FA17F25AD9E2B007560CE /* ProfileViewModel.swift */; };
+		C32FA18825ADA227007560CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32FA18725ADA227007560CE /* Model.swift */; };
+		C32FA18B25ADA268007560CE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32FA18A25ADA268007560CE /* ViewModel.swift */; };
+		C36D33A325ADA7FD00AE6445 /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D33A225ADA7FD00AE6445 /* Swift2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,14 @@
 		C32FA13D25AD87CD007560CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C32FA14025AD87CD007560CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32FA14225AD87CD007560CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32FA15125AD90B2007560CE /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
+		C32FA15425AD90F2007560CE /* texgyreadventor-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "texgyreadventor-regular.otf"; sourceTree = "<group>"; };
+		C32FA15825AD9239007560CE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C32FA17C25AD98E6007560CE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C32FA17F25AD9E2B007560CE /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		C32FA18725ADA227007560CE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C32FA18A25ADA268007560CE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C36D33A225ADA7FD00AE6445 /* Swift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32FA14B25AD881D007560CE /* SwiftyJSON in Frameworks */,
+				C32FA14F25AD8A30007560CE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +79,15 @@
 				C32FA13425AD87CB007560CE /* AppDelegate.swift */,
 				C32FA13625AD87CB007560CE /* SceneDelegate.swift */,
 				C32FA13825AD87CB007560CE /* ContentView.swift */,
+				C32FA18725ADA227007560CE /* Model.swift */,
+				C32FA18A25ADA268007560CE /* ViewModel.swift */,
+				C36D33A225ADA7FD00AE6445 /* Swift2.swift */,
+				C32FA15125AD90B2007560CE /* PlayersViewModel.swift */,
+				C32FA15825AD9239007560CE /* SignInView.swift */,
+				C32FA17C25AD98E6007560CE /* MainViewModel.swift */,
+				C32FA17F25AD9E2B007560CE /* ProfileViewModel.swift */,
 				C32FA13A25AD87CD007560CE /* Assets.xcassets */,
+				C32FA15425AD90F2007560CE /* texgyreadventor-regular.otf */,
 				C32FA13F25AD87CD007560CE /* LaunchScreen.storyboard */,
 				C32FA14225AD87CD007560CE /* Info.plist */,
 				C32FA13C25AD87CD007560CE /* Preview Content */,
@@ -91,6 +119,10 @@
 			dependencies = (
 			);
 			name = SofiyaSobko;
+			packageProductDependencies = (
+				C32FA14A25AD881D007560CE /* SwiftyJSON */,
+				C32FA14E25AD8A30007560CE /* Alamofire */,
+			);
 			productName = SofiyaSobko;
 			productReference = C32FA13125AD87CB007560CE /* SofiyaSobko.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +150,10 @@
 				Base,
 			);
 			mainGroup = C32FA12825AD87CB007560CE;
+			packageReferences = (
+				C32FA14925AD881D007560CE /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				C32FA14D25AD8A30007560CE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C32FA13225AD87CB007560CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32FA15525AD90F2007560CE /* texgyreadventor-regular.otf in Resources */,
 				C32FA14125AD87CD007560CE /* LaunchScreen.storyboard in Resources */,
 				C32FA13E25AD87CD007560CE /* Preview Assets.xcassets in Resources */,
 				C32FA13B25AD87CD007560CE /* Assets.xcassets in Resources */,
@@ -146,8 +183,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32FA13525AD87CB007560CE /* AppDelegate.swift in Sources */,
+				C32FA18B25ADA268007560CE /* ViewModel.swift in Sources */,
+				C32FA15225AD90B2007560CE /* PlayersViewModel.swift in Sources */,
 				C32FA13725AD87CB007560CE /* SceneDelegate.swift in Sources */,
 				C32FA13925AD87CB007560CE /* ContentView.swift in Sources */,
+				C32FA15925AD9239007560CE /* SignInView.swift in Sources */,
+				C32FA17D25AD98E6007560CE /* MainViewModel.swift in Sources */,
+				C32FA18025AD9E2B007560CE /* ProfileViewModel.swift in Sources */,
+				C36D33A325ADA7FD00AE6445 /* Swift2.swift in Sources */,
+				C32FA18825ADA227007560CE /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +387,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C32FA14925AD881D007560CE /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C32FA14D25AD8A30007560CE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C32FA14A25AD881D007560CE /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32FA14925AD881D007560CE /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		C32FA14E25AD8A30007560CE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32FA14D25AD8A30007560CE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C32FA12925AD87CB007560CE /* Project object */;
 }
